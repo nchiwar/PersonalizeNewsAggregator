@@ -1,0 +1,1 @@
+Developed NewsHub, a JavaScript-based news aggregator with personalized feeds, multi-API integration (BBC, Guardian, GNews, Mediastack), and Material Design UI, leveraging Fetch API, Intersection Observer, and Web Share API for a scalable, accessible media solution.
