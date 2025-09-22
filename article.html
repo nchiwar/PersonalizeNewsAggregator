@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - NewsHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="site-title">NewsHub</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="settings.html" class="nav-link">Settings</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+            <button class="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()">
+                <span class="material-icons">brightness_6</span>
+            </button>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+            <span class="material-icons">menu</span>
+        </button>
+    </header>
+    <main class="container">
+        <section class="article-detail" id="article-detail" role="article" aria-live="polite">
+            <p>Explore the full story from the original source for the latest updates and in-depth details.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

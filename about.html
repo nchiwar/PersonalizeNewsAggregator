@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - NewsHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="site-title">NewsHub</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="settings.html" class="nav-link">Settings</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+            <button class="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()">
+                <span class="material-icons">brightness_6</span>
+            </button>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+            <span class="material-icons">menu</span>
+        </button>
+    </header>
+    <main class="container">
+        <section>
+            <h2>About NewsHub</h2>
+            <p>NewsHub tackles information overload by delivering curated news from diverse sources, inspired by platforms like Flipboard.</p>
+            <h3>Key Features</h3>
+            <ul>
+                <li>Personalized feeds via multiple APIs (BBC, TechCrunch, Guardian, GNews, Mediastack).</li>
+                <li>User profiles and article saving with localStorage.</li>
+                <li>Accessible, responsive design with Material Design principles.</li>
+                <li>Advanced performance with lazy loading and debouncing.</li>
+            </ul>
+            <h3>Technical Approach</h3>
+            <p>Built with vanilla HTML, CSS, and JavaScript, leveraging Fetch API, Intersection Observer, and Web Share API for a scalable, modern web app.</p>
+            <p>Check the <a href="https://github.com/nchiwar" target="_blank" class="btn btn-secondary">GitHub Repo</a> or return to <a href="index.html" class="btn btn-primary">Home</a>.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
